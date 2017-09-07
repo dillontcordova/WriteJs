@@ -1,0 +1,45 @@
+{
+  "name": "writejs",
+  "version": "1.0.0",
+  "description": "Create Js files from javascript. A way to create js or ziped js files from the simplicity of a callback function.",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dillontcordova/WriteJs.git"
+  },
+  "keywords": [
+    "save",
+    "zip",
+    "buffer",
+    "js",
+    "javascript",
+    "from",
+    "sync",
+    "create",
+    "file",
+    "write",
+    "writejs",
+    "read",
+    "fs"
+  ],
+  "author": "Dillon Cordova",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/dillontcordova/WriteJs/issues"
+  },
+  "homepage": "https://github.com/dillontcordova/WriteJs#readme",
+  "peerDependencies": {
+    "fs": "0.0.1-security",
+    "node-zip": "1.1.1"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "node-zip": "1.1.1"
+  }
+}
