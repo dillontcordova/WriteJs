@@ -3,7 +3,6 @@ Create and write a js file from a single callback. Choose to create a zip or js 
 
 
 Create Js File (at same folder destination of the script):
-
 ```
 const WriteJs = require('writejs');
  
@@ -17,6 +16,7 @@ const WriteJs = require('writejs');
  WriteJs(callBack, fileName).create.js();
 ``` 
 
+Create a Zip File (at same folder destination of the script):
 ```
 const WriteJs = require('writejs');
 
@@ -30,6 +30,7 @@ let fileName = 'test';
 WriteJs(callBack, fileName).create.zip();
 ```
 
+Get the zip buffer of the file (at same folder destination of the script):
 ```
 const WriteJs = require('writejs');
 
