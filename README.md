@@ -4,7 +4,7 @@ Create and write a js file from a single callback. Choose to create a zip or js 
 
 Create Js File (at same folder destination of the script):
 
-`const WriteJs = require('../index');
+```const WriteJs = require('../index');
  
  let callBack = function(){
      exports.handler = function( _event, _context, _callback ){
@@ -14,5 +14,5 @@ Create Js File (at same folder destination of the script):
  
  let handlerName = 'test';
  WriteJs(callBack, handlerName).create.js();
-`
+```
 
